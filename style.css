@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Rubik+Beastly&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Noto+Serif:wght@700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+
+body {
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.stickybar {
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(30px, 5.5vw, 60px);
+    font-weight: bolder;
+    color: white;
+
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 0;
+    color: #e0137a;
+
+
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bolder;
+    color: #e0137a;
+    padding: 0;
+    margin: 3px 0 0;
+}
+
+ nav {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    width: 100%;
+     align-items: center;
+     margin-bottom: 20px;
+}
+#caption {
+    font-style: italic;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    font-size: 1.2rem;
+
+}
+
+nav div {
+    text-align: center;
+    color: white;
+    padding: 1em 3rem;
+}
+
+nav a:hover {
+text-decoration: underline;
+
+}
+
+
+.singleimage img {
+    width: 95%;
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+.imagegallery {
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    max-width: 70vw;
+    object-fit: contain;
+    gap: 20px;
+}
+ figure {
+    display: block;
+    margin: 0;
+    object-fit: contain;
+    flex: 1;
+     font-size: 1em;
+}
+
+.imagegallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+header {
+
+    /*background-image: url(https://i.imgur.com/ACyrI7i.png);*/
+    /*background-size: contain;*/
+    display: flex;
+    background-color: #e0137a;
+    height:25vh;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+
+}
+
+section {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 20% 40px;
+    border-radius: 15px;
+    border-left: 2px solid #e0137a;
+}
+
+
+footer {
+    background-color: #2f3133;
+    height: 8vh;
+    color: black;
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer div,
+footer i {
+    color: white;
+
+}
+
+footer i {
+font-size: 1.2em;
+}
+
+figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    opacity: 0.4;
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    nav div a {
+        width: 100%;
+    }
+
+    section {
+        padding: 20px;
+        margin: 0 2% 40px;
+    }
+
+
+
+
+    .imagegallery {
+        flex-direction: column;
+        width: contain;
+    }
+}
