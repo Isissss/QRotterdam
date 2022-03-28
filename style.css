@@ -32,6 +32,7 @@ h1 {
     color: white;
 
 }
+
 h2 {
     font-size: 2rem;
     font-weight: bolder;
@@ -50,17 +51,19 @@ h3 {
     margin: 3px 0 0;
 }
 
- nav {
+nav {
     display: flex;
     background-color: white;
     justify-content: center;
     width: 100%;
-     align-items: center;
-     margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 20px;
 }
+
 #caption {
     font-style: italic;
 }
+
 nav a {
     text-decoration: none;
     text-transform: uppercase;
@@ -78,7 +81,7 @@ nav div {
 }
 
 nav a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 
 }
 
@@ -98,12 +101,13 @@ text-decoration: underline;
     object-fit: contain;
     gap: 20px;
 }
- figure {
+
+figure {
     display: block;
     margin: 0;
     object-fit: contain;
     flex: 1;
-     font-size: 1em;
+    font-size: 1em;
 }
 
 .imagegallery img {
@@ -113,15 +117,11 @@ text-decoration: underline;
 }
 
 header {
-
-    /*background-image: url(https://i.imgur.com/ACyrI7i.png);*/
-    /*background-size: contain;*/
     display: flex;
     background-color: #e0137a;
-    height:25vh;
+    height: 25vh;
     align-items: center;
     flex-direction: column;
-    background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
 
@@ -157,7 +157,7 @@ footer i {
 }
 
 footer i {
-font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 figcaption {
@@ -171,6 +171,7 @@ figcaption {
     nav {
         flex-direction: column;
     }
+
     nav div a {
         width: 100%;
     }
@@ -179,8 +180,6 @@ figcaption {
         padding: 20px;
         margin: 0 2% 40px;
     }
-
-
 
 
     .imagegallery {
