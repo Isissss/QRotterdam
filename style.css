@@ -39,8 +39,11 @@ h2 {
     text-transform: uppercase;
     margin: 0;
     color: #e0137a;
+}
 
-
+.strong {
+    color: #e0137a;
+    font-weight: bold;
 }
 
 h3 {
