@@ -22,13 +22,13 @@ function  goTop (e) {
 }
 
 function showAnswer (e) {
-    question.innerHTML = "";
-
     let h3 = document.createElement("h3")
     h3.innerHTML = "Yes! Goed gedaan. Simpel toch?"
 
     let goodAnswer = document.createElement("img")
     goodAnswer.src = "https://i.imgur.com/oIYj1Wp.png";
+
+    question.innerHTML = "";
 
     question.appendChild(h3)
     question.appendChild(goodAnswer)
